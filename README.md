@@ -1,3 +1,9 @@
+### My Approach
+Based off of my lonewolf player tracking app, I decided to approach this challenge using AngularJS and Firebase. Firebase is a cloud services provider and backend as a service provider. It provides realtime monitoring of events. I found this solution to be capable of performing the task because I am not a backend (php, MySQL) developer and having worked with this in the past, made it my go-to choice.
+
+### Enjoy
+Everything posted below this is jargon from the angular-seed app I used to scaffold this project.
+
 ### Install Dependencies
 
 We have two kinds of dependencies in this project: tools and angular framework code.  The tools help
