@@ -1,0 +1,22 @@
+<div class="panel panel-default">
+	<!-- Default panel contents -->
+	<div class="panel-heading">
+		<h4><small>voting on question:</small></h4>
+		<h2 ng-bind="Survey.Question"></h2>
+	</div>
+	<!-- List group -->
+	<ul class="list-group">
+		<li class="list-group-item" ng-repeat="answer in Survey.Answers">
+			<div class="radio">
+			<label>
+				<input type="radio" name="AnswersRadios" ng-model="myVote.answer" ng-value="answer">
+				{{answer.label}}
+			</label>
+		</div>
+		</li>
+	</ul>
+</div>
+    <button class="btn btn-success btn-lg submit-now" ng-click="Vote()" ng-disabled="!myVote.answer">Submit</button>
+<div class="form-group return-home">
+    <a class="btn btn-primary btn-lg" type="button" href="#/">Return Home</a>
+</div>
